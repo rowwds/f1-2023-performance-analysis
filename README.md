@@ -22,7 +22,15 @@ This project explores driver and constructor performance trends during the 2023 
 
 ---
 
-## 📈 Current Status
-* [x] **Day 1:** Defined project scope, analytical questions, and repo setup.
-* [ ] **Day 2:** Clean and transform raw Ergast CSV datasets in Excel.
-* [ ] **Day 3:** Build interactive visualizations in Tableau.
+## 🛠️ Data Cleaning & Transformation (Excel)
+To prepare the dataset for analysis, raw Kaggle (Ergast F1) tables were joined and transformed in Excel:
+* **Table Joins (`VLOOKUP`):** Combined `results.csv` with `drivers.csv`, `constructors.csv`, and `races.csv` using `driverId`, `constructorId`, and `raceId`.
+* **Dataset Isolation:** Scoped data strictly to the 2023 Formula 1 season.
+* **Feature Engineering:** Calculated `PositionsGained` using `= Grid Position - Finish Position` to evaluate driver performance relative to starting position.
+
+---
+
+## 📈 Project Roadmap
+* [x] **Day 1:** Project scope, analytical questions, and repository setup.
+* [x] **Day 2:** Data cleaning, `VLOOKUP` transformations, and 2023 dataset isolation.
+* [ ] **Day 3:** Visualizations and interactive dashboard building in Tableau.
