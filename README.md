@@ -31,7 +31,15 @@ To prepare the dataset for analysis, raw Kaggle (Ergast F1) tables were joined, 
 
 ---
 
+## 📊 Interactive Tableau Dashboard
+[👉 View Full Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/rodel.homecillo/viz/2023Formula1PerformanceAnalysis/Dashboard1)
+
+### Key Analytical Takeaways:
+1. **Dominance in the Title Race:** Max Verstappen accumulated 575 total points, pulling away significantly from teammate Sergio Perez (285 pts) and Lewis Hamilton (234 pts) across the 22 rounds.
+2. **Qualifying vs. Race Day Pace:** Drivers like Nico Hulkenberg heavily dropped positions on average from grid to finish due to Haas's high tire degradation, whereas drivers starting mid-pack frequently made up net positions.
+3. **Constructor Standings:** Red Bull Racing dominated the constructors' title with 860 points, scoring more than double second-place Mercedes (409 points).
+
 ## 📈 Project Roadmap
 * [x] **Day 1:** Project scope, analytical questions, and repository setup.
 * [x] **Day 2:** Data cleaning, `VLOOKUP` transformations, and 2023 dataset isolation.
-* [ ] **Day 3:** Visualizations and interactive dashboard building in Tableau.
+* [x] **Day 3:** Visualizations and interactive dashboard building in Tableau.
