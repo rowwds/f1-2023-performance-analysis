@@ -22,11 +22,12 @@ This project explores driver and constructor performance trends during the 2023 
 
 ---
 
-## 🛠️ Data Cleaning & Transformation (Excel)
-To prepare the dataset for analysis, raw Kaggle (Ergast F1) tables were joined and transformed in Excel:
+## 🛠️ Data Cleaning, Transformation & Validation (Excel)
+To prepare the dataset for analysis, raw Kaggle (Ergast F1) tables were joined, transformed, and validated in Excel:
 * **Table Joins (`VLOOKUP`):** Combined `results.csv` with `drivers.csv`, `constructors.csv`, and `races.csv` using `driverId`, `constructorId`, and `raceId`.
-* **Dataset Isolation:** Scoped data strictly to the 2023 Formula 1 season.
-* **Feature Engineering:** Calculated `PositionsGained` using `= Grid Position - Finish Position` to evaluate driver performance relative to starting position.
+* **Dataset Isolation:** Filtered raw results strictly to 2023 race IDs (`1098`–`1120`), yielding 440 total race entry rows across 22 Grands Prix.
+* **Feature Engineering:** Calculated `PositionsGained` (`= Grid Position - Finish Position`) to quantify driver overtakes and positions lost/gained per race.
+* **Data Validation (Pivot Tables):** Built an Excel Pivot Table summary to verify season point totals against official 2023 FIA standings (e.g., verifying Verstappen's 575 total points).
 
 ---
 
